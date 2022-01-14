@@ -5,8 +5,14 @@ Problem definition:
   can collaborate
 * A candidate can create an event to form a team, so that interested people with relevant skills can collaborate, same happens with open source.
 
+Properties:
 1. Secured
 2. Efficient
 3. Responsive design
 4. High quality content
 5. Maintainable 
+
+Working principle:
+----
+Requirements & Features:
+---
