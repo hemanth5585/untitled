@@ -1,0 +1,11 @@
+Hackathon mate finder:
+Problem definition:
+* A platform where a team or a person can find a mate for hackathons or other technical competitions. [A kind of professional socail media]
+* Usually in global hackathons where a team should be formed and team should not be mandatorily from the same college, so from our platform students from different colleges
+  can collaborate
+* A candidate can create an event to form a team, so that interested people with relevant skills can collaborate, same happens with open source.
+
+1. Secured
+2. Efficient
+3. Responsive design
+4. High quality content
