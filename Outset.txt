@@ -9,3 +9,4 @@ Problem definition:
 2. Efficient
 3. Responsive design
 4. High quality content
+5. Maintainable 
