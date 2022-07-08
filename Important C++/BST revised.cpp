@@ -1,3 +1,54 @@
+//UPDATED IN 8/7/22
+//hemanth_5585 code
+#include<bits/stdc++.h>
+typedef long long int ll;
+using namespace std;
+struct node{
+	int data;
+	struct node* left = NULL;
+	struct node* right = NULL;
+};
+node* insert(node* root, int x)
+{
+	struct node* temp;
+	temp = new node();
+	temp->data = x;
+	temp->left =NULL;
+	temp->right = NULL;
+	if(root==NULL)
+		return temp;
+	else if(x<root->data)
+		root->left = insert(root->left,x);
+	else
+	root->right = insert(root->right,x);
+	return root;
+}
+void inorder(node* root)
+{
+	if(root==NULL)
+		return ;
+	inorder(root->left);
+	cout<<root->data<<" ";
+	inorder(root->right);	
+}
+int main()
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+	int t;
+	cin>>t;
+	struct node *root = NULL, *temp = NULL;
+	int data;
+	while(t--)
+	{
+		cin>>data;
+		root = insert(root,data);
+	}	
+	inorder(root);
+}
+
+
+----------------------------------------------------------------
 //hemanth_5585 code
 #include<bits/stdc++.h>
 //#define hemanth_5585
